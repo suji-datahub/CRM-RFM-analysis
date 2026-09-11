@@ -1,5 +1,5 @@
-# Customer Retention & Value Analysis for a Shopify E-commerce Business
+# Customer Retention & Value Analysis
+## A Shopify E-commerce Customer Analytics Project
 
-Industry: E-commerce / DTC
-Platform: Shopify
-Focus: Customer Retention, Customer Segmentation, RFM Analysis, Cohort Analysis, CRM Strategy
+### Objective
+Analyze customer purchasing behavior, identify high-value and at-risk customer segments, and develop data-driven CRM strategies to improve customer retention and repeat purchases.
