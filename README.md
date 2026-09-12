@@ -4,7 +4,6 @@
 ### Objective
 Analyze customer purchasing behavior, identify high-value and at-risk customer segments, and develop data-driven CRM strategies to improve customer retention and repeat purchases.
 
-
 #### 01. Business Problem
 The business wants to increase customer retention and repeat purchases.
 
@@ -14,6 +13,12 @@ Order data
 Sales data
 Product data
 1 year of Shopify transaction history
+
+SQL 하기전 엑셀로 전처리함
+Removed duplicate orders
+Handled cancelled/refunded orders
+Standardized date formats
+Aggregated transactions at customer level
 
 #### 03. Data Preparation
 고객 ID 통합
