@@ -71,7 +71,6 @@ SELECT
         WHEN R_score >= 4 AND M_score >= 4
 		THEN 'High Value'
 
-
         WHEN R_score >= 4 AND M_score <= 3
 		THEN 'Potential High Value'
 
