@@ -1,4 +1,4 @@
-# Customer Retention & Value Analysis
+# Customer CRM Analysis: RFM Segmentation & Marketing Strategy
 ### A Shopify E-commerce Customer Analytics Project
 
 ### Objective
