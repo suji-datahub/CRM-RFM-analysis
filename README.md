@@ -27,7 +27,6 @@ By answering these questions, the project aims to turn customer transaction data
 
 ## 🛠️ Tools & Technologies
 - MySQL
-- SQL
 - RFM Analysis
 - Customer Segmentation
 - CRM Marketing Strategy
