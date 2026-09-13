@@ -54,6 +54,26 @@ The data was used to aggregate customer-level purchasing behavior and calculate 
 >
 > The SQL logic, analytical methodology, customer segmentation framework, and marketing recommendations are presented for portfolio and demonstration purposes.
 
+## 🔄 Analysis Methodology
+The analysis was conducted through the following steps:
+1. **Data Preparation**
+   - Joined customer and order data using customer email.
+   - Standardized order date fields.
+   - Identified purchasing and non-purchasing customers.
+2. **Customer-Level Aggregation**
+   - Calculated order count.
+   - Calculated total customer spending.
+   - Identified first and most recent purchase dates.
+3. **RFM Scoring**
+   - Assigned Recency scores using customer purchase recency.
+   - Assigned Frequency scores based on order count.
+   - Assigned Monetary scores based on total spending.
+4. **Customer Segmentation**
+   - Segmented customers primarily using Recency and Monetary scores.
+   - Used Frequency as a supporting indicator.
+5. **CRM Strategy**
+   - Developed targeted marketing strategies for each customer segment.
+
 ## 📊 RFM Analysis
 RFM analysis was used to evaluate customer purchasing behavior based on three key dimensions: Recency, Frequency, and Monetary value.
 
@@ -87,23 +107,23 @@ Customers were segmented based primarily on Recency and Monetary scores, with Fr
 This segmentation helps identify customers with different levels of value and engagement, allowing marketing activities to be tailored to each segment.
 
 ## 📈 Segment Performance
-Customer segments were evaluated based on customer count and revenue contribution.
+Customer segments were evaluated based on customer distribution, revenue contribution, and overall RFM characteristics.
 
-Due to company data confidentiality, detailed customer-level data and
-specific business metrics are not publicly disclosed in this repository.
+Due to company data confidentiality, detailed customer-level data and specific business metrics are not publicly disclosed in this repository.
 
 The analysis evaluated each segment using:
-- Customer count
-- Customer distribution
+- Customer count and distribution
 - Revenue contribution
 - Average customer spending
 - RFM score distribution
+- Customer value and engagement characteristics
 
 ## 🔍 Key Findings
-- A relatively small group of customers showed both high recency and high monetary value.
-- Some high-spending customers had low recency scores, indicating potential churn risk.
-- Recently acquired customers with lower spending represented opportunities for upselling and repeat purchases.
-- A significant group of customers had no purchase history and required a different acquisition strategy.
+- A relatively small group of customers showed both high recency and high monetary value, representing the core high-value customer segment.
+- Some high-spending customers showed low recency, indicating potential churn risk and the need for reactivation campaigns.
+- Customers with high recency but lower spending represented opportunities for upselling and increasing repeat purchases.
+- A significant group of customers had no purchase history, highlighting the need for separate customer acquisition and conversion strategies.
+- Customer segments showed different levels of customer value and engagement, suggesting that a one-size-fits-all marketing approach would be less effective.
 
 ## 💡 CRM Marketing Strategy
 ### High Value
@@ -152,3 +172,10 @@ The analysis evaluated each segment using:
 - Welcome campaigns
 - Product education
 - Promotional campaigns
+
+## 📝 Conclusion
+This project used RFM analysis to identify different customer segments based on purchasing behavior.
+
+By combining Recency, Frequency, and Monetary metrics, customers were classified into segments with different levels of value and engagement. The analysis also identified opportunities to retain high-value customers, reactivate at-risk customers, and encourage repeat purchases among developing customers.
+
+The results demonstrate how SQL-based customer analysis can be transformed into actionable CRM strategies and support more targeted customer engagement.
