@@ -128,6 +128,7 @@ The analysis evaluated each segment using:
 ## 💡 CRM Marketing Strategy
 ### High Value
 **Goal:** Retain high-value customers
+
 **Strategy:**
 - VIP benefits
 - Loyalty rewards
@@ -136,6 +137,7 @@ The analysis evaluated each segment using:
 
 ### Potential High Value
 **Goal:** Increase purchase frequency and spending
+
 **Strategy:**
 - Cross-selling
 - Upselling
@@ -144,6 +146,7 @@ The analysis evaluated each segment using:
 
 ### High Value At Risk
 **Goal:** Reactivate valuable inactive customers
+
 **Strategy:**
 - Win-back campaigns
 - Personalized offers
@@ -152,6 +155,7 @@ The analysis evaluated each segment using:
 
 ### Low Value / At Risk
 **Goal:** Encourage reactivation at a low marketing cost
+
 **Strategy:**
 - Low-cost promotional campaigns
 - Reminder campaigns
@@ -159,6 +163,7 @@ The analysis evaluated each segment using:
 
 ### Developing
 **Goal:** Encourage repeat purchases
+
 **Strategy:**
 - Follow-up campaigns
 - Product recommendations
@@ -167,6 +172,7 @@ The analysis evaluated each segment using:
 
 ### Non-Purchaser
 **Goal:** Convert non-purchasers into first-time customers
+
 **Strategy:**
 - First-purchase discounts
 - Welcome campaigns
