@@ -15,11 +15,9 @@ Using MySQL, customer purchase data was aggregated and evaluated across three di
 The final goal is to transform raw transaction data into actionable customer segments and marketing strategies.
 
 ## 🎯 Business Objective
-
 The goal of this project is to understand customer purchasing behavior and identify different customer segments using RFM analysis.
 
 The analysis aims to answer the following questions:
-
 - Who are the most valuable customers?
 - Which high-value customers may be at risk of churn?
 - Which customers have potential for repeat purchases or higher spending?
@@ -28,7 +26,6 @@ The analysis aims to answer the following questions:
 By answering these questions, the project aims to turn customer transaction data into actionable marketing insights.
 
 ## 🛠️ Tools & Technologies
-
 - MySQL
 - SQL
 - RFM Analysis
@@ -37,7 +34,6 @@ By answering these questions, the project aims to turn customer transaction data
 - GitHub
 
 ## 📦 Dataset
-
 The dataset contains one year of customer and order data from a Shopify phone case e-commerce store.
 
 Data Used
@@ -58,9 +54,7 @@ The data was used to aggregate customer-level purchasing behavior and calculate 
 >
 > The SQL logic, analytical methodology, customer segmentation framework, and marketing recommendations are presented for portfolio and demonstration purposes.
 
-
 ## 📊 RFM Analysis
-
 RFM analysis was used to evaluate customer purchasing behavior based on three key dimensions: Recency, Frequency, and Monetary value.
 
 | Metric            | Definition                                               | Scoring |
@@ -78,9 +72,7 @@ RFM analysis was used to evaluate customer purchasing behavior based on three ke
 
 The RFM scores are then combined to support customer segmentation and prioritization.
 
-
 ## 👥 Customer Segmentation
-
 Customers were segmented based primarily on Recency and Monetary scores, with Frequency used as a supporting indicator.
 
 | Customer Segment         | Characteristics                              |
@@ -95,34 +87,27 @@ Customers were segmented based primarily on Recency and Monetary scores, with Fr
 This segmentation helps identify customers with different levels of value and engagement, allowing marketing activities to be tailored to each segment.
 
 ## 📈 Segment Performance
-
 Customer segments were evaluated based on customer count and revenue contribution.
 
 Due to company data confidentiality, detailed customer-level data and
 specific business metrics are not publicly disclosed in this repository.
 
 The analysis evaluated each segment using:
-
 - Customer count
 - Customer distribution
 - Revenue contribution
 - Average customer spending
 - RFM score distribution
 
-
 ## 🔍 Key Findings
-
 - A relatively small group of customers showed both high recency and high monetary value.
 - Some high-spending customers had low recency scores, indicating potential churn risk.
 - Recently acquired customers with lower spending represented opportunities for upselling and repeat purchases.
 - A significant group of customers had no purchase history and required a different acquisition strategy.
 
 ## 💡 CRM Marketing Strategy
-
 ### High Value
-
 **Goal:** Retain high-value customers
-
 **Strategy:**
 - VIP benefits
 - Loyalty rewards
@@ -130,9 +115,7 @@ The analysis evaluated each segment using:
 - Early access to new products
 
 ### Potential High Value
-
 **Goal:** Increase purchase frequency and spending
-
 **Strategy:**
 - Cross-selling
 - Upselling
@@ -140,9 +123,7 @@ The analysis evaluated each segment using:
 - Second-purchase incentives
 
 ### High Value At Risk
-
 **Goal:** Reactivate valuable inactive customers
-
 **Strategy:**
 - Win-back campaigns
 - Personalized offers
@@ -150,18 +131,14 @@ The analysis evaluated each segment using:
 - Product recommendations based on previous purchases
 
 ### Low Value / At Risk
-
 **Goal:** Encourage reactivation at a low marketing cost
-
 **Strategy:**
 - Low-cost promotional campaigns
 - Reminder campaigns
 - Targeted discounts
 
 ### Developing
-
 **Goal:** Encourage repeat purchases
-
 **Strategy:**
 - Follow-up campaigns
 - Product recommendations
@@ -169,9 +146,7 @@ The analysis evaluated each segment using:
 - Repeat-purchase incentives
 
 ### Non-Purchaser
-
 **Goal:** Convert non-purchasers into first-time customers
-
 **Strategy:**
 - First-purchase discounts
 - Welcome campaigns
